@@ -1,0 +1,10 @@
+## VIVA Error Codes
+
+
+viva.err.0 		Success/Prepaid-Output-Success
+viva.err.1 		Failure
+viva.err.101 	MSISDN not exist or number is terminated
+viva.err.201 	RemoteFault
+viva.postpaid   Postpaid
+ 
+

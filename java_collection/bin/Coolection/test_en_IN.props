@@ -1,0 +1,284 @@
+## VIVA Error Codes
+
+
+viva.err.0 		Success/Prepaid-Output-Success
+viva.err.1 		Failure
+viva.err.101 	MSISDN not exist or number is terminated
+viva.err.201 	RemoteFault
+viva.wsdl.path  http://37.131.68.7:7777/orabpel/default/STCQueryCustomerDetailsCommsProvABCSImpl/1.0 
+viva.postpaid   Postpaid
+ 
+
+## EZEETOP Top Time 
+
+#Error Codes
+
+
+EZEETOP.12   InternalServerError 					
+EZEETOP.2    MessageIDIsMissing 						
+EZEETOP.21   MessageIDFormatIsInvalid 				
+EZEETOP.3    AuthenticationTokenIsMissing			
+EZEETOP.31   AuthenticationIDIsMissing 				
+EZEETOP.32   AuthenticationPasswordIsMissing 		
+EZEETOP.4    CountryCodeIsMissing 					
+EZEETOP.41   CountryCodeFormatIsInvalid				
+EZEETOP.42   CountryCodeLengthIsInvalid 				
+EZEETOP.5    PhoneNumberIsMissing 					
+EZEETOP.51   PhoneNumberFormatIsInvalid				
+EZEETOP.52   Phone number invalid for country
+EZEETOP.6    AmountIsMissing 						
+EZEETOP.66   AmountFormatIsInvalid 					
+EZEETOP.666  AmountOutOfRange 						
+EZEETOP.7    AuthenticationFailed 					
+EZEETOP.8    CountryTopUpNotSetUp 					
+EZEETOP.9    VirtualAccountLimitMatched 				
+EZEETOP.122  ValidationFailed 						
+EZEETOP.94   OperatorReturnedError 					
+EZEETOP.941  OperatorTimedOut 						
+EZEETOP.95   CreditLimitExceeded 					
+EZEETOP.96   RefillNotAllowed
+EZEETOP.97 	Subscriber not valid
+
+
+EZEETOP.WSDL https://edts.ezedistributor.com/EDTSManager.asmx?WSDL
+
+# Ezeetop Authentication Credentials
+
+# For AE 
+AE.ezeetop.authid ce535a16-7485-48f7-a2f0-b90d1289ab74 
+AE.ezeetop.authpwd BGn3reDKMs/xus9OSiobz3qcBTXvWVkHyav2S7p465RqYID2YsCWJcg+ya7osv0uUwrLsapQ0HPM3MObmzS6r+/Q4K+bG6I3uiEE4ppCQd8=
+
+# For BH  
+BH.ezeetop.authid fb7bcdf5-ecb8-4f6a-b903-37342c4fb0a4
+BH.ezeetop.authpwd rTo0hdAFfCmz4QmhtAqdkA1QUvg/dm5gTiOR0HXhWbsbM1QU7PjfMHUyX1oCQgEsYks4mzIAyTRO1IKvKY3SCzJVr/AlczgDo0ers3lNQwc=
+
+# For QA
+QA.ezeetop.authid 2c4f7aa0-4154-4cc3-9ced-012d805e4df5
+QA.ezeetop.authpwd O2ZZPJozmHTWXZ2rvSTeqdUl9BDc2VcqN8ceozuVtf3e7to4ZJTBrdQ6j2Z3XJjrHY2AUtYJak2ITzi71OV9HpjcEihRgpGDaNB8blW6VNQ=
+
+# EZEETOP USER DEFINED ERROR
+
+EZEETOP.noresponsereceived No Response Received
+EZEETOP.errorinoperation Error in Operation
+
+# EZEETOP Top Time Ends
+
+#JAZEERA Ticket Payments Begin
+
+JAZEERA.ContractVersion		346
+
+#URL
+
+JAZEERA.SessionManager.wsdl     https://m.jazeeraairways.com/J9R3XAPI/SessionManager.svc?wsdl
+JAZEERA.BookingManager.wsdl	https://m.jazeeraairways.com/J9R3XAPI/BookingManager.svc?wsdl
+JAZEERA.Service.wsdl	 	https://webapp.jazeeraairways.com/J9Exchange/Service.asmx?wsdl
+
+#JAZEERAAE.DomainCode        	WW2
+#JAZEERAAE.AgentName         	J9UAEEXAE
+#JAZEERAAE.Password		Uaeae-11
+#JAZEERAAE.RoleCode		APUE
+
+#JAZEERAJO.DomainCode       	WW2
+#JAZEERAJO.AgentName        	J9UAEEXJO
+#JAZEERAJO.Password		Uaejo-12
+#JAZEERAJO.RoleCode		APUE
+
+#JAZEERAKW.DomainCode       	WW2
+#JAZEERAKW.AgentName         	J9UAEEXKW
+#JAZEERAKW.Password		Uaekw-13
+#JAZEERAKW.RoleCode		APUE
+
+JAZEERAAE.DomainCode    EXT
+JAZEERAAE.AgentName     J9UAEEXAE
+JAZEERAAE.Password		Dubai12
+JAZEERAAE.RoleCode		APUE
+
+JAZEERAJO.DomainCode    EXT
+JAZEERAJO.AgentName     J9UAEEXJO
+JAZEERAJO.Password		Jordan12
+JAZEERAJO.RoleCode		APUE
+
+JAZEERAKW.DomainCode    EXT
+JAZEERAKW.AgentName     J9UAEEXKW
+JAZEERAKW.Password		Kuwait12
+JAZEERAKW.RoleCode		APUE
+
+JAZEERAQA.DomainCode    EXT
+JAZEERAQA.AgentName     J9UAEEXQA
+JAZEERAQA.Password		Qatar12
+JAZEERAQA.RoleCode		APUE
+
+JAZEERA.error.noresponsereceived  No Response Received for Current PNR Number
+
+#JAZEERA Ticket Payments End
+
+
+## flydubai Payment
+
+flydubai.url.session  http://fz.service.radixx.com/radixxsecurity.asmx?wsdl
+flydubai.url.UserID  UAED_FZ_LIVE
+flydubai.url.pwd  uaedlive03312009
+flydubai.url.travelagent	http://fz.service.radixx.com/radixxbooking.asmx?wsdl
+flydubai.url.travelagent.AED.tanno	95000200
+flydubai.url.travelagent.AED.UserID	apiuaeexch
+flydubai.url.travelagent.AED.pwd	U@$ExC!AN8E
+flydubai.url.travelagent.JOD.tanno	95000202
+flydubai.url.travelagent.JOD.UserID	apiuaeexchind
+flydubai.url.travelagent.JOD.pwd	Fly@2013
+flydubai.url.travelagent.QAR.tanno	95000203
+flydubai.url.travelagent.QAR.UserID	apiuaeexchqar
+flydubai.url.travelagent.QAR.pwd	Fly@2014
+flydubai.url.travelagent.BHD.tanno	95000204
+flydubai.url.travelagent.BHD.UserID	apiuaeexchbhd
+flydubai.url.travelagent.BHD.pwd	Fly@2014
+flydubai.url.booking	http://fz.service.radixx.com/RadixxFlights.asmx?wsdl
+flydubai.url.booking.serialno 299
+flydubai.url.convertccy	 http://fz.service.radixx.com/RadixxTravelAgents.asmx?wsdl
+flydubai.error.ERR3015	 Reservation not found
+flydubai.error.ERR0100	 Security GUID check failed.Click New
+flydubai.error.ERR3099	 Reservation not in session
+flydubai.error.ERR9999	 Unexpected Error
+
+## Cobone Cash Collection
+cobone.url https://apiadmin.cobone.com/v1/purchase/
+cobone.apikey cty2zgz4qu27b75y5hhf954uusruxb
+cobone.successCode 200 
+cobone.err.400 Bad Request
+cobone.err.401 Unauthorized
+cobone.err.403 Forbidden
+cobone.err.404 Not Found
+cobone.err.500 Internal Server Error
+
+##AXIOM
+axiom.wsdl https://ataeuaex.axiom.local/UAEExchange/OnlineTopUpApi.svc?wsdl
+
+
+##
+## DUPOST
+
+dupost.wsdl.path  http://172.22.244.152/Live/Du/DuPGWThirdPartyWS/postpaid/DuPGWThirdPartyWS.asmx?WSDL
+
+dupostAE.AgentUserID  Bob
+dupostAE.MerchantID UAEEX
+dupostAE.StoreID UAEEX001
+dupostAE.network 1
+
+
+##SEWA 
+SEWA.URL http://83.111.21.40:60003/SEWA_Service.asmx?wsdl
+SEWA.BankID  78
+SEWA.TransactionType  BalanceInquiry 
+SEWA.ServiceType  SEWA
+SEWA.ChannelID   WWW123456789012
+##SEWA End
+
+## 
+## 	ADDC Credentials & URLs
+##
+adweaauh.ae.applive.wsdl https://adweaintsrv.adweag.ae/ADDCUAT/AppLive.asmx?WSDL
+adweaauh.ae.balanceeq.wsdl https://adweaintsrv.adweag.ae/ADDCUAT/BalanceEnquiry.asmx?WSDL
+adweaauh.ae.ePayments.wsdl https://adweaintsrv.adweag.ae/ADDCUAT/ePayments.asmx?wsdl
+adweaauh.ae.recon.wsdl  https://adweaintsrv.adweag.ae/ADDCUAT/Reconciliation.asmx?wsdl
+		
+adweaauh.ae.lang EN
+adweaauh.ae.userid EXTUSER
+adweaauh.ae.password 12345678
+adweaauh.ae.tendertypecode EXCA
+adweaauh.ae.autopasrccode UAEXCA
+adweaauh.ae.tendersrccode UAEX
+adweaauh.ae.createdby UAEX
+adweaauh.ae.companyname ADDC
+
+## adwea-auh error codes
+adweaauh.err.098CCB Account does not exist
+adweaauh.err.1005 Length of account number is not pass properly
+
+adweaauh.err.99 Duplicate TransactionsID or Wrong UserName/Password
+adweaauh.err.1001 Invalid Company Parameter
+adweaauh.err.1001.F2008 AccountNumber/ApprovalCode  too long
+adweaauh.err.1001.F2013 Invalid Auto Pay Source code/Tender Type code/Consumer Account no
+
+
+
+## 
+## aadc-alain
+
+aadcalain.ae.applive.wsdl https://externalentities.adweag.ae/AADC/AppLive.asmx
+aadcalain.ae.balanceeq.wsdl https://externalentities.adweag.ae/AADC/BalanceEnquiry.asmx
+aadcalain.ae.ePayments.wsdl https://externalentities.adweag.ae/AADC/ePayments.asmx
+aadcalain.ae.recon.wsdl  https://externalentities.adweag.ae/AADC/Reconciliation.asmx
+
+adweaauh.ae.applive.wsdl https://externalentities.adweag.ae/ADDC/AppLive.asmx?WSDL
+adweaauh.ae.balanceeq.wsdl https://externalentities.adweag.ae/ADDC/BalanceEnquiry.asmx?WSDL
+adweaauh.ae.ePayments.wsdl https://externalentities.adweag.ae/ADDC/ePayments.asmx?wsdl
+adweaauh.ae.recon.wsdl  https://externalentities.adweag.ae/ADDC/Reconciliation.asmx?wsdl
+		
+aadcalain.ae.lang EN
+aadcalain.ae.userid EXTUSER
+aadcalain.ae.password 12345678
+aadcalain.ae.tendertypecode EXCA
+aadcalain.ae.autopasrccode UAEXCA
+aadcalain.ae.tendersrccode UAEX
+aadcalain.ae.createdby UAEX
+aadcalain.ae.companyname AADC
+
+## adwea-auh error codes
+aadcalain.err.098CCB Account does not exist
+aadcalain.err.1005 Length of account number is not pass properly
+
+aadcalain.err.99 Duplicate TransactionsID or Wrong UserName/Password
+aadcalain.err.1001 Invalid Company Parameter
+aadcalain.err.1001.F2008 AccountNumber/ApprovalCode  too long
+aadcalain.err.1001.F2013 Invalid Auto Pay Source code/Tender Type code/Consumer Account no
+
+##Fawry
+fawry.BillInqMsgID			
+fawry.BillInqMsgCode		BillInqRs
+fawry.Receiver				UAEXH
+fawry.Version				V1.0
+fawry.Sender				GW_POS
+fawry.Language				en-gb
+fawry.TerminalID			20770004
+fawry.OrginatorCode			UAEXH
+fawry.ClientTerminalID		115397
+fawry.PaymentType_PostPaid  POST
+fawry.PaymentType_Prepaid   PREP
+fawry.DeliveryMethod        MOB
+fawry.BankID 				FAWRYRTL
+fawry.PmtMsgCode			PmtAddRq
+
+#OCRM HandlerBeans
+PSOCRM.FAWRY   XPSFawryPaymentHandler
+PSOCRM.OSN     XPSOSNPaymentHandler
+
+## Transmitted Transactions will sent to the below mail ID 
+transmittedTxn.mail.smtp.fromAddress  no.reply@uaeexchange.com
+transmittedTxn.mail.smtp.toAddress	  karthickrajan.s@in.uaeexchange.com
+transmittedTxn.mail.smtp.ccAddress    kumar.v@in.uaeexchange.com 
+
+##OSN
+osn.getBalanceURL http://paymentdev.osn.com/payment/api/v10/subscription/balancedirect
+osn.settlementURL http://paymentdev.osn.com/payment/api/v10/subscription/settlement
+osn.applicationID 63
+osn.sourceID 120
+osn.httpMethod POST
+osn.passPharse -1+2*3&7
+osn.sha256 SHA-256
+osn.signatureBytes UTF-8
+osn.contentType application/json
+osn.acceptLanguage en-GB
+osn.remittanceMode 1
+
+osn.error.01 Success, Payment updated success fully
+osn.error.20 Failed, Invalid reference number
+osn.error.22 Failed, Customer not allowed
+osn.error.29 Failed, Invalid request ID
+osn.error.30 Failed, Payment already done on request ID
+osn.error.31 Failed, Maximum retry reached
+osn.error.41 Failed, No registered beneficiary found
+osn.error.42 Failed, No Payment amount found
+osn.error.44 Failed, Minimum amount required
+osn.error.45 Failed, No valid box office product found
+osn.error.46 Failed, Product not active for box office payment
+osn.error.99 System Error
+osn.error.100 TimedOut Error
